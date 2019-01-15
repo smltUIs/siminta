@@ -1,0 +1,312 @@
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+.panels-first-section{
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;  
+    overflow: hidden;  
+}
+.section-body{
+    width: 33.33%;
+    box-sizing: border-box;
+    float: left; 
+}
+.section-body:nth-child(1){
+    padding-right: 20px;
+}
+.section-body:nth-child(2){
+    padding:0px 10px;
+}
+.section-body:nth-child(3){
+    padding-left: 20px;
+}
+.section-txt{
+    border-bottom: 1px solid #ddd;
+    background-color: palevioletred;
+    width: 100%;
+    border-radius: 5px;
+}
+.panels-first-section .section-body:nth-child(1) .panel-heading{
+    background-color: #f5f5f5;
+}
+.panels-first-section .section-body:nth-child(2) .panel-heading{
+    background-color: #428bca;
+}
+.panels-first-section .section-body:nth-child(3) .panel-heading{
+    background-color: #dff0d8;
+}
+.panels-first-section-copy .section-body:nth-child(1) .panel-heading{
+    background-color: #d9edf7;
+}
+.panels-first-section-copy .section-body:nth-child(2) .panel-heading{
+    background-color: #fcf8e3;
+}
+.panels-first-section-copy .section-body:nth-child(3) .panel-heading{
+    background-color: #f2dede;
+}
+.panel-heading{
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+    background-color: #f5f5f5;
+}
+.panel-footer{
+    padding: 10px 15px;
+    border-top: 1px solid #ddd;
+    background-color: #f5f5f5;
+}
+.panel-body{
+    background-color: #fff;
+}
+.panel-body p{
+    padding-left: 15px;
+    padding-top:15px;
+    padding-bottom: 25px;
+}
+
+.panel-second-section{
+    background-color: yellowgreen;
+    overflow: hidden;
+    margin-bottom:20px;
+    width: 100%;
+}
+.panel-second-section .panel-body{
+    box-sizing: border-box;
+    padding:15px 15px 35px 15px;
+    width: 100%;
+    background-color: #fff;
+    overflow: hidden;
+}
+.panel-group{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+/* -----SuperSlide start------- */
+
+		/* 本例子css */
+		.panel-tit{  
+            border:1px solid #ddd;  
+            border-radius: 4px;
+            margin-bottom: 5px;
+        }
+		.panel-tit h3{ 
+            height:40px; 
+            line-height:40px; 
+            padding-left:15px;  
+            border-top:1px solid #e3e3e3; 
+            background:#f5f5f5; 
+            cursor:pointer;
+            color: #333;
+			font:normal 16px/40px "Microsoft YaHei";
+		}
+        .panel-tit p{ 
+            padding:15px 20px; 
+            color:#333;
+             display:none;
+        }
+/* ---------SuperSlide end---------- */
+.panel-third-section{
+    width:100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.third-section-left{
+    width: 50%;
+    padding-right:15px;
+    box-sizing: border-box;
+    float: left;
+}
+.third-section-right{
+    width: 50%;
+    padding-left:15px;
+    box-sizing: border-box;
+    float: left;
+}
+.panel-third-section .panel-body{
+    width: 100%;
+}
+
+
+/* --------super Slide----------- */
+
+/* 本例子css */
+.panel-tab{
+    box-sizing: border-box;
+    padding:15px 15px 5px 15px;
+    width: 100%;
+    background-color: #fff;
+}
+.panel-tab .tab-navs{
+    width: 100%;
+    overflow: hidden;
+}
+.panel-tab ul li{
+    float: left;
+    padding:20px 15px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    color:#428bda;
+    
+}
+.panel-tab ul li.on{
+    color: #555;
+    border:1px solid #ddd;
+    border-bottom: none;
+    position: relative;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.tab-content h4{
+    font-size: 18px;
+    height: 18px;
+    line-height: 30px;
+    font-weight: 100;
+    padding-top:4px;
+}
+.tab-content{
+    overflow: hidden;
+}
+.tab-content p{
+    padding-left: 0px;
+}
+.third-section-right .panel-tab ul li{
+    border-bottom: none;
+}
+.third-section-right .panel-tab ul li.on{
+    background-color: #428bca;
+    color: #fff
+}
+
+/* -----------superSlide------------ */
+.panel-fourth-section{
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.fourth-section-con{
+    width: 33.33%;
+    box-sizing: border-box;
+    float: left;
+}
+.fourth-section-con:nth-child(1){
+    padding-right: 20px;
+}
+.fourth-section-con:nth-child(2){
+    padding:0px 10px;
+}
+.fourth-section-con:nth-child(3){
+    padding-left: 20px;
+}
+.panel-fourth-section .panel-body{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    padding:30px 20px 0px 20px;
+}
+.panel-fourth-section .panel-body h4{
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 1.1;
+}
+.panel-fourth-section .panel-body p{
+    padding-left: 0px;
+}
+.fourth-section-con:nth-child(2) .panel-body{
+    padding:35px 25px 5px 25px;
+}
+.fourth-section-con:nth-child(3) .panel-body{
+    padding:20px 10px 0px 10px;
+}
+
+.panel-fifth-section{
+    width: 100%;
+    box-sizing: border-box;
+    padding:45px 25px 30px 25px;
+    background-color: #eee;
+    margin-bottom: 30px;
+}
+.jumbotron{
+    width: 100%;
+    box-sizing: border-box;
+}
+.jumbotron h1{
+    font-size: 58px;
+    color: #333;
+    font-weight: 200;
+}
+.jumbotron p{
+    font-size: 21px;
+    color: #333;
+    margin-bottom: 15px;
+}
+.jumbotron span{
+    display: block;
+    padding: 10px 16px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5;
+    border-radius: 6px;
+    background-color: #428bca;
+    border-color: #357ebd;
+    width: 110px;
+    cursor: pointer;
+}
+.jumbotron span a{
+    color: #fff;
+}
+
+/* ----------media------------ */
+@media screen and (max-width:1200px){
+    .section-body{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .section-body:nth-child(1){
+        padding-right: 0px;
+    }
+    .section-body:nth-child(2){
+        padding:0px 0px;
+    }
+    .section-body:nth-child(3){
+        padding-left: 0px;
+        margin-bottom: 0px;
+    }
+    .third-section-left{
+        width: 100%;
+        padding-right: 0px;
+        margin-bottom: 20px;
+    }
+    .third-section-right{
+        width: 100%;
+        padding-left: 0px;
+    }
+    .fourth-section-con{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .fourth-section-con:nth-child(1){
+        padding-right: 0px;
+    }
+    .fourth-section-con:nth-child(2){
+        padding:0px;
+    }
+    .fourth-section-con:nth-child(3){
+        padding-left: 0px;
+        margin-bottom: 0px;
+    }
+}
+@media screen and (max-width:768px){
+    .contentBox{
+        padding-left: 15px;
+        padding-right:15px;
+        padding-top:20px;
+        margin-top:10px;
+        margin-left: 0px;
+    }
+}

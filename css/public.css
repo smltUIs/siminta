@@ -1,0 +1,305 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,option,textarea{
+	margin:0;
+	padding:0;
+}
+li{
+	list-style:none;
+}
+img{
+	border:none;
+}
+a{
+	text-decoration:none;
+}
+
+/* =========top========= */
+
+.top{
+    width: 99%;
+    /* height:54px; */
+    /* height: 83px; */
+    background-color: #53a3a3;
+    overflow: hidden;
+    padding-top:14px;
+    padding-bottom: 14px;
+    padding-left: 1%;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 100;
+}
+.top_left{
+    float: left;
+}
+.top_right{
+    float: right;
+}
+.top_left img{
+    width: 150px;
+    height:30px;
+    display: block;
+}
+.top_right img{
+    width:54px;
+    height:54px;   
+    margin-right:18px;
+}
+.nav a{
+    color:#fff;
+}
+.alerttxt{
+    width:32px;
+    height:30px;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    position: fixed;
+    top:20px;
+    right:20px;
+    text-align: center;
+    padding-left: 10px;
+    display: none;
+}
+.alerttxt span{
+    width: 20px;
+    height: 2px;
+    background-color: #aaa;
+    display: block;
+    margin-top:6px;
+    text-align: center;
+}
+.alerttxt:hover{
+    background: #ddd;
+    cursor: pointer;
+}
+/* --------nav----------- */
+body{
+    /* background-color: #04b173; */
+}
+.contain{
+    /* float: left; */
+    background:#04b173;
+    overflow: hidden;
+    margin-top:82px;
+    width: 100%;
+    box-sizing: border-box;
+    /* height:  */
+}
+.contentBox{
+    box-sizing: border-box;
+    padding-left: 30px;
+    margin-left: 250px;
+    padding-top:10px;
+    padding-right:30px; 
+    background-color: #d1d4d8;
+    padding-bottom: 15px;
+}
+.contain .page-header{
+    font-weight: 100;
+    padding-top:10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+}
+.nav{
+    width:250px;
+    height: 100%;
+    background:#04b173;
+    float: left;
+    overflow: hidden;
+}
+.slideSpecial{
+    height: 80px;
+    background-color: #53a3a3;
+    border-top:1px solid #27a6be;
+    margin-top:-1px;
+}
+.slideLeft{
+    float: left;
+}
+.slideLeft img{
+    margin-top:10px;
+    margin-left: 10px;
+    width:55px;
+    height: 60px;
+}
+.slideRight{
+    float: left;
+    margin-left: 25px;
+    margin-top:10px;
+}
+.slideRight .slide-txt{
+    font-size: 20px;
+}
+.slideRight .slide-txt-online{
+    color: #fff;
+    font-size: 18px;
+    margin-top:3px;
+}
+.slideRight .slide-txt-online span{
+    width:15px;
+    height:15px;
+    border-radius: 50%;
+    background:yellow;
+    display: inline-block;
+}
+.search{
+    border-top:1px solid #84b899; 
+    height: 52px;
+    padding-top:14px;
+    position: relative;
+    padding-left: 10px;
+}
+.search #input-txt{
+    width:80%;
+    height: 34px;
+    float: left;
+    border:none;
+    outline: none;
+    border-right:1px solid #ccc;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-indent:15px;
+}
+.search #search-btn{
+    width:38px;
+    height: 34px;
+    float: left;
+    background-color: #fff;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.search #big-search{
+    position: absolute;
+    top:20px;
+    right:20px;
+}
+/* superSlide */
+a{ 
+    text-decoration:none; 
+}
+.js{
+    width:90%; 
+    margin:10px auto 0 auto; 
+}
+.js p{ 
+    padding:5px 0; 
+    font-weight:bold; 
+    overflow:hidden;  
+}
+.js p span{ 
+    float:right; 
+}
+.js p span a{ 
+    color:#f00; 
+    text-decoration:underline;   
+}
+.js textarea{ 
+    height:50px;  
+    width:98%; 
+    padding:5px; 
+    border:1px solid #ccc;
+    border-top:2px solid #aaa;  
+    border-left:2px solid #aaa;  
+}
+
+
+/* 本例子css */
+.sideMenu{  
+    /* border:1px solid #ddd;   */
+}
+.sideMenu h3{ 
+    /* height:53px;  */
+    padding:10px 0;
+    color: #fff;
+    line-height:53px; 
+    padding-left:20px;  
+    border-top:1px solid #84b899; 
+    cursor:pointer;            
+    font:normal 14px/32px "Microsoft YaHei";
+}
+.sideMenu h3 i{
+    margin-right: 5px;
+}
+.sideMenu h3 em{ 
+    float:right; 
+    /* line-height:53px;  */
+    display:block; 
+    width:40px; 
+    height:53px;   
+    color: #fff;
+    background:url(../images/icoAdd.png) 16px 12px no-repeat; 
+    cursor:pointer; 
+}
+.sideMenu h3.on em{ 
+    background-position:16px -57px; 
+
+}
+.sideMenu ul{ 
+    /* padding:8px 25px;  */
+    color:#fff; 
+    display:none; /* 默认都隐藏 */
+ }
+.sideMenu ul li{
+    height:53px; 
+    line-height:53px; 
+    border-top:1px solid #84b899; 
+    padding-left:20px;  
+    background:#04b173; 
+    cursor:pointer;            
+    font:normal 14px/32px "Microsoft YaHei";
+}
+.sideMenu ul li a{
+    color: #fff;
+    line-height: 53px;
+}
+/*----------SuperSlide    end-------- */
+
+
+@media screen and (max-width:770px){
+    .top_left, .top_right{
+        width:100%;
+        height: 100%;
+        float: none;
+    }
+    .top_left{
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+    .nav{
+        width: 100%;
+        margin-top:10px;
+        padding-top:20px;
+    }
+    .search #input-txt{
+        width: 87%;
+        padding-left: 4%;
+    }
+    .alerttxt{
+        display: block;
+    }
+    .nav{
+        display: none;
+    }
+}
+
+@media screen and (max-width:550px){
+    .search #input-txt{
+        width: 85%;
+        padding-left: 4%;
+    }
+}
+@media screen and (max-width:786px){
+    .top_right{
+        width: 100%;
+        float: none;
+    }
+    .contain{
+        margin-top:135px;
+    }
+}

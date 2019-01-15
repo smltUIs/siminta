@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,option,textarea{
+	margin:0;
+	padding:0;
+}
+li{
+	list-style:none;
+}
+img{
+	border:none;
+}
+a{
+	text-decoration:none;
+}
+body{
+    background-color: #84B899;
+    text-align: center;
+}
+
+
+.panel-img{
+    margin:100px auto 0px;
+    width: 200px;
+    height: 40px;
+}
+.input-box{
+    width: 30%;
+    background-color: #fff;
+    display: inline-block;
+    margin-top:40px;
+}
+.panel-heading{
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+    line-height: 40px;
+    padding-left: 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+.panel-body{
+    box-sizing: border-box;
+    padding:15px;
+}
+.panel-content{
+    width: 100%;
+    box-sizing: border-box;
+}
+.form-group{
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+.form-control{
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.checkbox{
+    display: block;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;    
+}
+label{
+    display: inline;
+    font-weight: normal;
+    cursor: pointer;
+}
+input[type="checkbox"]{
+    float: left;
+    margin-left: -20px;
+}
+.btn-login{
+    background-color: #5cb85c;
+    width: 100%;
+    padding:12px 0px;
+    color: #fff;
+    font-size: 18px;
+    display: block;
+    border-radius: 5px;
+}
+@media screen and (max-width:992px){
+    .input-box{
+        width: 85%;
+    }
+}
+@media screen and (max-width:768px){
+    .panel-main{
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .input-box{
+        width: 100%;
+    }
+}

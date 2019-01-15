@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>index</title>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/iconfont.css">
+</head>
+<body>
+<!-- top -->
+    <div class="top">
+        <div class="top_left">
+            <img src="images/logo.png" alt="">
+        </div>
+        <div class="top_right">
+            <img src="images/icon1.png" alt="">
+            <img src="images/icon2.png" alt="">
+            <img src="images/icon3.png" alt="">
+            <img src="images/icon4.png" alt="">
+        </div>
+        <div class="alerttxt">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+
+    <!-- contain -->
+    <div class="contain">
+        <!-- nav -->
+        <div class="nav">
+                <div class="sideMenu" style="margin:0 auto">
+                        <div class="slideSpecial"> 
+                            <div class="slideLeft">
+                                <img src="images/user.jpg" alt="">
+                            </div>
+                            <div class="slideRight">
+                                <div class="slide-txt">Jonny&nbsp;&nbsp;<strong>Deen</strong></div>
+                                <div class="slide-txt-online">
+                                    <span></span>&nbsp;online
+                                </div>
+                            </div>
+                        </div>
+                        <div class="search">
+                            <input type="text" name="" id="input-txt" placeholder="Search..."><i class="iconfont icon-icon19" id="big-search"></i>
+                            <input type="button" id="search-btn">
+                        </div>
+                        <h3 class="on"><i class="iconfont icon-dashboard"></i><em></em><a href="index.html">Dashboard</a></h3>
+                        <ul>                       
+                        </ul>            
+                        <h3><i class="iconfont icon-chart"></i><em></em>Charts</h3>    
+                        <ul>
+                            <li>
+                                <a href="flot.html" >Flot Charts</a>
+                            </li>
+                            <li>
+                                <a href="morris.html" >Morris Charts</a>
+                            </li>
+                        </ul>
+                        <h3><i class="iconfont icon-flask"></i><em></em>Timeline</h3>   
+                        <ul></ul>                  
+                        <h3><i class="iconfont icon-table"></i><em></em><a href="tables.html">Tables</a></h3>
+                        <ul></ul>
+                        <h3><i class="iconfont icon-edit"></i><em></em><a href="forms.html">Forms</a></h3>
+                        <ul></ul>
+                        <h3><i class="iconfont icon-wrench"></i><em></em>UI Elements</h3>   
+                        <ul>
+                            <li><a href="panels-wells.html">Panels and Wells</a></li>
+                            <li><a href="buttons.html">Buttons</a></li>
+                            <li><a href="notofications.html">Notifications</a></li>
+                            <li><a href="#">Typography</a></li>
+                            <li><a href="#">Grid</a></li>
+                        </ul> 
+                        <h3><i class="iconfont icon-sitemap"></i><em></em>Multi-Level Dropdown</h3> 
+                        <ul>
+                            <li><a href="#">Second Level Item</a></li>
+                            <li><a href="#">Second Level Item</a></li>
+                            <li><a href="#">Third Level Item</a></li>
+                        </ul>    
+                        <h3><i class="iconfont icon-fileso"></i><em></em>Sample Pages</h3>    
+                        <ul>
+                            <li><a href="#">Blank Page</a></li>
+                            <li><a href="login.html">Login Page</a></li>
+                        </ul>    
+                    </div>
+        </div>
+
+    <!-- nav-end -->
+        <div class="contentBox">
+            <h1 class="page-header">Dashboard</h1>
+            <div class="alert-info">
+                <i class="iconfont icon-folder"></i>
+                <b>&nbsp;Hello!</b>Welcome Back 
+                <b>Jonny Deen </b>
+                <i class="iconfont icon-pencil"></i>
+                <b>&nbsp;2000</b>Support Tickets Pending to Answere. &nbsp;
+            </div>
+            <div class="collg3">
+                <div class="col-lg">
+                    <div class="alert-danger">
+                        <i class="iconfont icon-calendar"></i>&nbsp;
+                        <b>20</b>Meetings Sheduled This Month
+                    </div>
+                </div>
+                <div class="col-lg">
+                    <div class="alert-success">
+                        <i class="iconfont icon-beer"></i>&nbsp;
+                        <b>27%</b>Profit Recorded in This Month 
+                    </div>
+                </div>
+                <div class="col-lg">
+                    <div class="alert-wifi">
+                        <i class="iconfont icon-rss"></i>&nbsp;
+                        <b>1900</b> New Subscribers This Year
+                    </div>
+                </div>
+                <div class="col-lg">
+                    <div class="alert-warning ">
+                        <i class="iconfont icon-pencil"></i>&nbsp;
+                        <b>2000</b>Payment Dues For Rejected Items
+                    </div>
+                </div>
+            </div>
+            <div class="collg4">
+                <div class="collg4-left">
+                    <div class="panel" id="panel">
+                        <div class="panel-header">
+                            <i class="iconfont icon-chart"></i>Area Chart Example
+                            <div class="pull-right">
+                                <button value="Actions" class="actionBtn1">Actions</button>
+                                <ul class="dropdown-menu1">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Separated link</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="panel-image" id="panel-image"></div>
+                    </div>
+
+                    <div class="panel" id="panel">
+                            <div class="panel-header">
+                                <i class="iconfont icon-chart"></i>Area Chart Example
+                                <div class="pull-right">
+                                    <button value="Actions" class="actionBtn2">Actions</button>
+                                    <ul class="dropdown-menu2">
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#">Another action</a></li>
+                                        <li><a href="#">Something else here</a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="#">Separated link</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="table-responsive" id="table-responsive">
+                                <table class="table-bordered" cellspacing="0">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Date</th>
+                                            <th>Time</th>
+                                            <th>Amount</th>
+                                        </tr>      
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>3326</td>
+                                            <td>10/21/2013</td>
+                                            <td>3:29 PM</td>
+                                            <td>$321.33</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3325</td>
+                                            <td>10/21/2013</td>
+                                            <td>3:20 PM</td>
+                                            <td>$234.34</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3324</td>
+                                            <td>10/21/2013</td>
+                                            <td>3:03 PM</td>
+                                            <td>$724.17</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3323</td>
+                                            <td>10/21/2013</td>
+                                            <td>3:00 PM</td>
+                                            <td>$23.71</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3322</td>
+                                            <td>10/21/2013</td>
+                                            <td>2:49 PM</td>
+                                            <td>$8345.23</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                </div>
+                <div class="collg4-right">
+                    <div class="panel-primary">
+                        <div class="panel-body">
+                            <i class="iconfont icon-chart"></i>
+                            <h3>2,060 </h3>
+                        </div>
+                        <div class="panel-footer">Pending Orders Found</div>  
+                    </div>
+                    <div class="panel-primary">
+                        <div class="panel-body">
+                            <i class="iconfont icon-pencil-square"></i>
+                            <h3>2,060 </h3>
+                        </div>
+                        <div class="panel-footer">Pending Orders Found</div>  
+                    </div>
+                    <div class="panel-primary">
+                        <div class="panel-body">
+                            <i class="iconfont icon-floppy"></i>
+                            <h3>2,060 </h3>
+                        </div>
+                        <div class="panel-footer">Pending Orders Found</div>  
+                    </div>
+                    <div class="panel-primary">
+                        <div class="panel-body">
+                            <i class="iconfont icon-thumbsup"></i>
+                            <h3>2,060 </h3>
+                        </div>
+                        <div class="panel-footer">Pending Orders Found</div>  
+                    </div>
+                </div>
+            </div>
+
+            <div class="collg5">
+                <div class="panel-bar">
+                    <div class="panel">
+                        <div class="panel-header">
+                            <i class="iconfont icon-chart"></i>Notifications Panel
+                        </div>
+                        <div class="panel-txt">
+                            <div class="panel-content">
+                                <a href="#">
+                                    <i class="iconfont icon-comment"></i>New comments
+                                    <span>4 minutes ago</span>
+                                </a>
+                                <a href="#">
+                                    <i class="iconfont icon-ttww"></i>3 New Followers
+                                    <span>12 minutes ago</span>
+                                </a>
+                                <a href="#">
+                                    <i class="iconfont icon-envelope"></i>Message Sent
+                                    <span>27 minutes ago</span>
+                                </a>
+                                <a href="#">
+                                    <i class="iconfont icon-tasks"></i>New Task
+                                    <span>43 minutes ago</span>
+                                </a>
+                                <a href="#">
+                                    <i class="iconfont icon-upload"></i>Server Rebooted
+                                    <span>11:32 AM</span>
+                                </a>
+                                <a href="#">
+                                    <i class="iconfont icon-bolt"></i>Server Crashed!
+                                    <span>11:13 AM</span>
+                                </a>
+                                <a href="#">
+                                    <i class="iconfont icon-warning"></i>Server Not Responding
+                                    <span>10:57 AM</span>
+                                </a>
+                                <a href="#">
+                                    <i class="iconfont icon-f-"></i>New Order Placed
+                                    <span>9:49 AM</span>
+                                </a>
+                            </div>
+                            <a href="#" class="btn-block">View All Alerts</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-bar">
+                    <div class="panel">
+                        <div class="panel-header">
+                            <i class="iconfont icon-chart"></i>Donut Chart Example
+                        </div>
+                        <div class="panel-txt" id="panel-txt3">
+                            <div class="panel-chart" id="panel-chart"></div>
+                            <a href="#" class="btn-block">View All Alerts</a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-bar">
+                    <div class="panel">
+                        <div class="panel-header">
+                            <i class="iconfont icon-chart"></i>Chat
+                        </div>
+                        <div class="panel-chat" id="panel-chat">
+                            <ul class="chat">
+                                <li class="chat-li">
+                                    <span class="chat-img">
+                                        <img src="images/chat1.png" alt="">
+                                    </span>
+                                    <div class="chat-body">
+                                        <div class="header">
+                                            <strong class="primary-font">Jack Sparrow</strong>
+                                            <small class="pull-right">
+                                            <i class="iconfont icon-clock"></i>12 mins ago
+                                            </small>
+                                        </div>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="chat-li">
+                                    <div class="chat-body chat-bodySpecial" id="chat-bodySpecial">
+                                        <div class="header">
+                                            <small class="pull-right">
+                                                <i class="iconfont icon-clock"></i>12 mins ago
+                                            </small>
+                                            <strong class="primary-font">Jack Sparrow</strong>
+                                            
+                                        </div>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
+                                        </p>
+                                    </div>
+                                    <span class="chat-img chat-imgSpecial">
+                                        <img src="images/chat2.png" alt="">
+                                    </span>
+                                    
+                                </li>
+                                <li class="chat-li">
+                                    <span class="chat-img">
+                                        <img src="images/chat1.png" alt="">
+                                    </span>
+                                    <div class="chat-body">
+                                        <div class="header">
+                                            <strong class="primary-font">Jack Sparrow</strong>
+                                            <small class="pull-right">
+                                            <i class="iconfont icon-clock"></i>12 mins ago
+                                            </small>
+                                        </div>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="chat-li">
+                                    <div class="chat-body chat-bodySpecial" id="chat-bodySpecial">
+                                        <div class="header">
+                                            <small class="pull-right">
+                                                <i class="iconfont icon-clock"></i>12 mins ago
+                                            </small>
+                                            <strong class="primary-font">Jack Sparrow</strong>
+                                            
+                                        </div>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
+                                        </p>
+                                    </div>
+                                    <span class="chat-img chat-imgSpecial">
+                                        <img src="images/chat2.png" alt="">
+                                    </span>
+                                    
+                                </li>
+                            </ul>
+                        </div>
+                </div>
+                    <div class="footer">
+                        <div class="panel-group">
+                            <input type="text" class="form-control" placeholder="Type your message here...">
+                            <input type="button" name="" id="btn-chat" value="send">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
+<script type="text/javascript" src="js/echarts.min.js"></script>
+<script type="text/javascript" src="js/wonderland.js"></script>
+<script type="text/javascript" src="js/indexEchars.js"></script>
+<script src="js/getTools.js"></script>
+<script type="text/javascript" src="js/jquery.1.10.min.js"></script>
+<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+
+<script src="js/index.js"></script>
+<script src="js/public.js"></script>
+<!-- <script type="javascript" src="js/morrisEchars.js"></script> -->
